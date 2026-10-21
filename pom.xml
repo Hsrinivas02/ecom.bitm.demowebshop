@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
     <artifactId>DemoWebShopProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!-- Project dependencies -->
     <dependencies>
+
+        <!-- Selenium WebDriver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.49.0</version>
         </dependency>
+
+        <!-- Apache POI for Excel operations -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>5.5.1</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>5.5.1</version>
         </dependency>
+
+        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -32,7 +41,16 @@
 
     </dependencies>
 
+    <!-- Java and build configuration -->
+    <properties>
+        <maven.compiler.release>21</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- Test suite profiles -->
     <profiles>
+
+        <!-- Batch Testing -->
         <profile>
             <id>BT</id>
             <build>
@@ -40,6 +58,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.5.4</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>batch.xml</suiteXmlFile>
@@ -50,6 +69,7 @@
             </build>
         </profile>
 
+        <!-- Cross-Browser Testing -->
         <profile>
             <id>CT</id>
             <build>
@@ -57,6 +77,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.5.4</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>Crossbrowser.xml</suiteXmlFile>
@@ -67,6 +88,7 @@
             </build>
         </profile>
 
+        <!-- Parallel Testing -->
         <profile>
             <id>PT</id>
             <build>
@@ -74,6 +96,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.5.4</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>parallel.xml</suiteXmlFile>
@@ -84,6 +107,7 @@
             </build>
         </profile>
 
+        <!-- Functional Testing -->
         <profile>
             <id>FT</id>
             <build>
@@ -91,6 +115,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.5.4</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>FunctionalSuite.xml</suiteXmlFile>
@@ -101,6 +126,7 @@
             </build>
         </profile>
 
+        <!-- Integration Testing -->
         <profile>
             <id>IT</id>
             <build>
@@ -108,6 +134,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.5.4</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>IntegrationSuite.xml</suiteXmlFile>
@@ -118,7 +145,7 @@
             </build>
         </profile>
 
-
+        <!-- System Testing -->
         <profile>
             <id>ST</id>
             <build>
@@ -126,6 +153,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.5.4</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>SystemSuite.xml</suiteXmlFile>
@@ -136,6 +164,7 @@
             </build>
         </profile>
 
+        <!-- Smoke Testing -->
         <profile>
             <id>SST</id>
             <build>
@@ -143,6 +172,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.5.4</version>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>SmokeSuite.xml</suiteXmlFile>
@@ -152,12 +182,7 @@
                 </plugins>
             </build>
         </profile>
-    </profiles>
 
-    <properties>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    </profiles>
 
 </project>
