@@ -3,14 +3,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.List;
-
 public class RegisterPage {
     WebDriver driver;
     public RegisterPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
+        //PageFactory->Selenium class that helps initialize web elements in a Page Object class.
+        //driver tells Selenium which browser session to use.
+        //this refers to the current RegisterPage object.
+        //Selenium examines the fields in that object annotated with @FindBy and initializes them so you can use them in your test methods.
     }
 
     // Gender
@@ -46,7 +48,8 @@ public class RegisterPage {
 
     // Registration result
     @FindBy(css = ".result")
-    public List<WebElement> resultMessages;
+    public List<WebElement> resultMessages; //here it is class="result",
+    // it shows after successfully registration i.e shows completed
 
     // Register link
     @FindBy(className = "ico-register")
@@ -55,6 +58,8 @@ public class RegisterPage {
     // Registration validation messages
     @FindBy(css = ".validation-summary-errors, .field-validation-error")
     public List<WebElement> validationMessages;
+    //.validation-summary-errors-> gets whn already registered user registers
+    //field-validation-error-> clicking for empty username text field, etc
 
     // Select gender
     public void selectGender(String gender) {

@@ -1,12 +1,9 @@
-
 package objRepo;
-
 import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 public class CartPage {
     WebDriver driver;
     public CartPage(WebDriver driver) {
@@ -89,23 +86,10 @@ public class CartPage {
         Thread.sleep(1500);
     }
 
-    // Continue shopping
-    public void continueShopping() throws InterruptedException {
-        continueShoppingBtn.click();
-        Thread.sleep(1500);
-    }
-
     // Get first product subtotal text
     public String getFirstProductSubtotal() {
         return productSubtotals.get(0).getText().replaceAll("[^0-9.]", "");
-    }
+    }//Here getText() → returns "$25.50"
+    //replaceAll("[^0-9.]", "") → removes everything except digits and the decimal point, returning "25.50".
 
-    // Proceed to checkout
-    public void checkout() throws InterruptedException {
-        if (!termsCheckbox.isSelected()) {
-            termsCheckbox.click();
-        }
-        checkoutBtn.click();
-        Thread.sleep(2000);
-    }
 }

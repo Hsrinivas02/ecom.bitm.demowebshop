@@ -1,5 +1,7 @@
 package logout;
 import java.io.IOException;
+
+import genericUtility.PropertyUtility;
 import genericUtility.ScreenshotUtility;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -15,7 +17,7 @@ public class LogoutTest extends BaseClass {
 
     // Login before testing logout
     public void loginUser() throws IOException, InterruptedException {
-        driver.get("https://demowebshop.tricentis.com/login");
+        driver.get(PropertyUtility.getData("loginUrl")); //https://demowebshop.tricentis.com/login
 
         String email = ExcelUtility.getData("SignupLoginData", 6, 1);
         String password = ExcelUtility.getData("SignupLoginData", 6, 2);
@@ -45,8 +47,8 @@ public class LogoutTest extends BaseClass {
 
     // TC-LOGOUT-03: Verify Contact Us page opens
     @Test(groups = {"functionalGroup"}, priority = 3)
-    public void verifyContactUsPageOpens() throws InterruptedException {
-        driver.get("https://demowebshop.tricentis.com/contactus");
+    public void verifyContactUsPageOpens() throws InterruptedException, IOException {
+        driver.get(PropertyUtility.getData("contactUrl")); //https://demowebshop.tricentis.com/contactus
         Thread.sleep(1500);
 
         Assert.assertTrue(driver.getCurrentUrl().contains("contactus"), "Contact Us page did not open");
@@ -55,8 +57,8 @@ public class LogoutTest extends BaseClass {
 
     // TC-LOGOUT-04: Verify Contact Us form fields
     @Test(groups = {"functionalGroup"}, priority = 4)
-    public void verifyContactFormFields() throws InterruptedException {
-        driver.get("https://demowebshop.tricentis.com/contactus");
+    public void verifyContactFormFields() throws InterruptedException, IOException {
+        driver.get(PropertyUtility.getData("contactUrl"));
         Thread.sleep(1500);
 
         Assert.assertTrue(logoutPage.fullName.isDisplayed(), "Full name field is not displayed");
@@ -70,7 +72,7 @@ public class LogoutTest extends BaseClass {
     // TC-LOGOUT-05: Verify Contact Us form submission with valid details
     @Test(groups = {"SystemGrp"}, priority = 5)
     public void submitContactFormWithValidData() throws IOException, InterruptedException {
-        driver.get("https://demowebshop.tricentis.com/contactus");
+        driver.get(PropertyUtility.getData("contactUrl"));
         Thread.sleep(1500);
 
         logoutPage.enterFullName(data(1, 1));
@@ -87,7 +89,7 @@ public class LogoutTest extends BaseClass {
     // TC-LOGOUT-06: Verify invalid email validation on Contact Us form
     @Test(groups = {"functionalGroup"}, priority = 6)
     public void submitContactFormWithInvalidEmail() throws IOException, InterruptedException {
-        driver.get("https://demowebshop.tricentis.com/contactus");
+        driver.get(PropertyUtility.getData("contactUrl"));
         Thread.sleep(1500);
 
         // Data index 2 is the invalid-email row in the reduced LogoutData sheet

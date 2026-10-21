@@ -41,7 +41,6 @@ public class ProductTest extends BaseClass {
     public void searchUsingValidKeyword() throws IOException, InterruptedException {
         String keyword = ExcelUtility.getData("ProductData", 1, 1);
         productPage.searchProduct(keyword);
-
         Assert.assertTrue(productPage.getSearchResultCount() > 0, "No products found for: " + keyword);
         Reporter.log("TC-HOME-04 Passed", true);
     }
@@ -77,7 +76,6 @@ public class ProductTest extends BaseClass {
 
         // Negative scenario 2: Blank search
         productPage.searchBox.clear();
-
         // Take screenshot before clicking Search because a JavaScript alert opens
         wUtil.takingScreenshot(driver, "BlankProductSearchBeforeAlert");
         productPage.searchBtn.click();

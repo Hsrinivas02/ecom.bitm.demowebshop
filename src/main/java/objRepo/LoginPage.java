@@ -1,11 +1,9 @@
 package objRepo;
-
 import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 public class LoginPage {
     WebDriver driver;
     public LoginPage(WebDriver driver) {
@@ -22,11 +20,11 @@ public class LoginPage {
     public WebElement passWord;
 
     // Login button
-    @FindBy(css = "input.login-button")
+    @FindBy(css = "input.login-button") //In css locator we can locate multiple class names with .
     public WebElement loginBtn;
 
     // Login link
-    @FindBy(className = "ico-login")
+    @FindBy(className = "ico-login") //Use clsName whn having only 1 class
     public WebElement loginLink;
 
     // Logout link after successful login

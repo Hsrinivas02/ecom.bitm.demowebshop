@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="35" passed="34" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-HOME-01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-AUTH-01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-LOGOUT-01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-HOME-02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-AUTH-02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-HOME-03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-CART-01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-CHK-01 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-LOGOUT-02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-HOME-04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-AUTH-03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[TC-LOGOUT-03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-HOME-05 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-CART-02 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-LOGOUT-04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-HOME-06 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-AUTH-04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-CHK-03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[TC-LOGOUT-05 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Unmatched product search verified]]>
+    </line>
+    <line>
+      <![CDATA[Blank product search validation verified]]>
+    </line>
+    <line>
+      <![CDATA[TC-HOME-09 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-AUTH-06 Passed]]>
+    </line>
+    <line>
+      <![CDATA[TC-CART-03 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-LOGOUT-06 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[TC-CHK-04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-AUTH-08 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-AUTH-09 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[TC-CART-04 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-CHK-05 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-CART-05 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[TC-CHK-06 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-CART-07 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-CHK-09 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[TC-CART-08 Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Payment information verified: You will pay by COD]]>
+    </line>
+    <line>
+      <![CDATA[TC-CHK-10 Passed - Your order has been successfully processed!]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-21T12:36:54 IST" name="Parallel Suite" finished-at="2026-10-21T12:41:40 IST" duration-ms="285990">
+    <groups>
+      <group name="functionalGroup">
+        <method signature="SignupLoginTest.verifyRegistrationControls()[pri:1, instance:login.SignupLoginTest@451001e5]" name="verifyRegistrationControls" class="login.SignupLoginTest"/>
+        <method signature="LogoutTest.verifyLogoutLinkDisplayed()[pri:1, instance:logout.LogoutTest@194fad1]" name="verifyLogoutLinkDisplayed" class="logout.LogoutTest"/>
+        <method signature="ProductTest.verifyLogoAndNavigation()[pri:2, instance:products.ProductTest@6f53b8a]" name="verifyLogoAndNavigation" class="products.ProductTest"/>
+        <method signature="CheckoutTest.verifyBillingFieldsDisplayed()[pri:3, instance:checkout.CheckoutTest@f1da57d]" name="verifyBillingFieldsDisplayed" class="checkout.CheckoutTest"/>
+        <method signature="SignupLoginTest.registerWithBlankFields()[pri:3, instance:login.SignupLoginTest@451001e5]" name="registerWithBlankFields" class="login.SignupLoginTest"/>
+        <method signature="LogoutTest.verifyContactUsPageOpens()[pri:3, instance:logout.LogoutTest@194fad1]" name="verifyContactUsPageOpens" class="logout.LogoutTest"/>
+        <method signature="ProductTest.verifySearchControls()[pri:3, instance:products.ProductTest@6f53b8a]" name="verifySearchControls" class="products.ProductTest"/>
+        <method signature="CartTest.updateQuantityToTwo()[pri:4, instance:cart.CartTest@5c80cf32]" name="updateQuantityToTwo" class="cart.CartTest"/>
+        <method signature="SignupLoginTest.registerWithInvalidEmail()[pri:4, instance:login.SignupLoginTest@451001e5]" name="registerWithInvalidEmail" class="login.SignupLoginTest"/>
+        <method signature="LogoutTest.verifyContactFormFields()[pri:4, instance:logout.LogoutTest@194fad1]" name="verifyContactFormFields" class="logout.LogoutTest"/>
+        <method signature="CartTest.updateQuantityToFive()[pri:5, instance:cart.CartTest@5c80cf32]" name="updateQuantityToFive" class="cart.CartTest"/>
+        <method signature="CheckoutTest.verifyBlankBillingInformation()[pri:5, instance:checkout.CheckoutTest@f1da57d]" name="verifyBlankBillingInformation" class="checkout.CheckoutTest"/>
+        <method signature="CartTest.removeProductFromCart()[pri:6, instance:cart.CartTest@5c80cf32]" name="removeProductFromCart" class="cart.CartTest"/>
+        <method signature="CheckoutTest.verifyInvalidEmail()[pri:6, instance:checkout.CheckoutTest@f1da57d]" name="verifyInvalidEmail" class="checkout.CheckoutTest"/>
+        <method signature="SignupLoginTest.invalidPasswordTest()[pri:6, instance:login.SignupLoginTest@451001e5]" name="invalidPasswordTest" class="login.SignupLoginTest"/>
+        <method signature="LogoutTest.submitContactFormWithInvalidEmail()[pri:6, instance:logout.LogoutTest@194fad1]" name="submitContactFormWithInvalidEmail" class="logout.LogoutTest"/>
+        <method signature="ProductTest.searchUsingPartialKeyword()[pri:6, instance:products.ProductTest@6f53b8a]" name="searchUsingPartialKeyword" class="products.ProductTest"/>
+        <method signature="CheckoutTest.verifyStateSelection()[pri:7, instance:checkout.CheckoutTest@f1da57d]" name="verifyStateSelection" class="checkout.CheckoutTest"/>
+        <method signature="SignupLoginTest.unregisteredEmailTest()[pri:7, instance:login.SignupLoginTest@451001e5]" name="unregisteredEmailTest" class="login.SignupLoginTest"/>
+        <method signature="ProductTest.verifyNegativeSearchScenarios()[pri:7, instance:products.ProductTest@6f53b8a]" name="verifyNegativeSearchScenarios" class="products.ProductTest"/>
+      </group> <!-- functionalGroup -->
+      <group name="SmokeGrp">
+        <method signature="ProductTest.verifyHomepageLoads()[pri:1, instance:products.ProductTest@6f53b8a]" name="verifyHomepageLoads" class="products.ProductTest"/>
+        <method signature="SignupLoginTest.registerNewUser()[pri:2, instance:login.SignupLoginTest@451001e5]" name="registerNewUser" class="login.SignupLoginTest"/>
+        <method signature="LogoutTest.verifyLogoutFunctionality()[pri:2, instance:logout.LogoutTest@194fad1]" name="verifyLogoutFunctionality" class="logout.LogoutTest"/>
+        <method signature="CartTest.verifyProductQuantityDisplayed()[pri:3, instance:cart.CartTest@5c80cf32]" name="verifyProductQuantityDisplayed" class="cart.CartTest"/>
+        <method signature="CheckoutTest.verifyValidBillingInformation()[pri:4, instance:checkout.CheckoutTest@f1da57d]" name="verifyValidBillingInformation" class="checkout.CheckoutTest"/>
+        <method signature="ProductTest.searchUsingValidKeyword()[pri:4, instance:products.ProductTest@6f53b8a]" name="searchUsingValidKeyword" class="products.ProductTest"/>
+        <method signature="SignupLoginTest.validLoginTest()[pri:5, instance:login.SignupLoginTest@451001e5]" name="validLoginTest" class="login.SignupLoginTest"/>
+        <method signature="ProductTest.searchUsingCompleteProductName()[pri:5, instance:products.ProductTest@6f53b8a]" name="searchUsingCompleteProductName" class="products.ProductTest"/>
+      </group> <!-- SmokeGrp -->
+      <group name="SystemGrp">
+        <method signature="LogoutTest.submitContactFormWithValidData()[pri:5, instance:logout.LogoutTest@194fad1]" name="submitContactFormWithValidData" class="logout.LogoutTest"/>
+        <method signature="CartTest.verifySubtotalForOneProduct()[pri:7, instance:cart.CartTest@5c80cf32]" name="verifySubtotalForOneProduct" class="cart.CartTest"/>
+        <method signature="CheckoutTest.completeCheckoutEndToEnd()[pri:8, instance:checkout.CheckoutTest@f1da57d]" name="completeCheckoutEndToEnd" class="checkout.CheckoutTest"/>
+      </group> <!-- SystemGrp -->
+      <group name="IntegrationGrp">
+        <method signature="CartTest.verifyCartPageOpens()[pri:1, instance:cart.CartTest@5c80cf32]" name="verifyCartPageOpens" class="cart.CartTest"/>
+        <method signature="CheckoutTest.verifyCheckoutPageOpens()[pri:1, instance:checkout.CheckoutTest@f1da57d]" name="verifyCheckoutPageOpens" class="checkout.CheckoutTest"/>
+        <method signature="CartTest.verifyAddedProductAppears()[pri:2, instance:cart.CartTest@5c80cf32]" name="verifyAddedProductAppears" class="cart.CartTest"/>
+        <method signature="CheckoutTest.verifyCheckoutTitle()[pri:2, instance:checkout.CheckoutTest@f1da57d]" name="verifyCheckoutTitle" class="checkout.CheckoutTest"/>
+        <method signature="SignupLoginTest.validLoginTest()[pri:5, instance:login.SignupLoginTest@451001e5]" name="validLoginTest" class="login.SignupLoginTest"/>
+      </group> <!-- IntegrationGrp -->
+    </groups>
+    <test started-at="2026-10-21T12:36:54 IST" name="Parallel Tests" finished-at="2026-10-21T12:41:40 IST" duration-ms="285990">
+      <class name="products.ProductTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:36:54 IST" name="setUp" finished-at="2026-10-21T12:37:09 IST" duration-ms="14634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomepageLoads()[pri:1, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:09 IST" name="verifyHomepageLoads" finished-at="2026-10-21T12:37:10 IST" duration-ms="1337" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HOME-01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:10 IST" name="tearDown" finished-at="2026-10-21T12:37:14 IST" duration-ms="4100" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:14 IST" name="setUp" finished-at="2026-10-21T12:37:23 IST" duration-ms="8148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoAndNavigation()[pri:2, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:23 IST" name="verifyLogoAndNavigation" finished-at="2026-10-21T12:37:23 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HOME-02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoAndNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:23 IST" name="tearDown" finished-at="2026-10-21T12:37:29 IST" duration-ms="6442" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:29 IST" name="setUp" finished-at="2026-10-21T12:37:37 IST" duration-ms="7999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchControls()[pri:3, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:37 IST" name="verifySearchControls" finished-at="2026-10-21T12:37:38 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HOME-03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchControls -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:38 IST" name="tearDown" finished-at="2026-10-21T12:37:39 IST" duration-ms="1614" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:39 IST" name="setUp" finished-at="2026-10-21T12:37:47 IST" duration-ms="7285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchUsingValidKeyword()[pri:4, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:47 IST" name="searchUsingValidKeyword" finished-at="2026-10-21T12:37:50 IST" duration-ms="3945" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HOME-04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchUsingValidKeyword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:50 IST" name="tearDown" finished-at="2026-10-21T12:37:52 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:52 IST" name="setUp" finished-at="2026-10-21T12:37:58 IST" duration-ms="6648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchUsingCompleteProductName()[pri:5, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:37:58 IST" name="searchUsingCompleteProductName" finished-at="2026-10-21T12:38:02 IST" duration-ms="3586" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HOME-05 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchUsingCompleteProductName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:38:02 IST" name="tearDown" finished-at="2026-10-21T12:38:04 IST" duration-ms="1825" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:38:04 IST" name="setUp" finished-at="2026-10-21T12:38:10 IST" duration-ms="6192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchUsingPartialKeyword()[pri:6, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:38:10 IST" name="searchUsingPartialKeyword" finished-at="2026-10-21T12:38:17 IST" duration-ms="6866" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HOME-06 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchUsingPartialKeyword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:38:17 IST" name="tearDown" finished-at="2026-10-21T12:38:19 IST" duration-ms="1970" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:38:19 IST" name="setUp" finished-at="2026-10-21T12:38:26 IST" duration-ms="7319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNegativeSearchScenarios()[pri:7, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:38:26 IST" name="verifyNegativeSearchScenarios" finished-at="2026-10-21T12:38:42 IST" duration-ms="16133" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Unmatched product search verified]]>
+            </line>
+            <line>
+              <![CDATA[Blank product search validation verified]]>
+            </line>
+            <line>
+              <![CDATA[TC-HOME-09 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNegativeSearchScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:products.ProductTest@6f53b8a]" started-at="2026-10-21T12:38:42 IST" name="tearDown" finished-at="2026-10-21T12:38:45 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- products.ProductTest -->
+      <class name="checkout.CheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:36:54 IST" name="setUp" finished-at="2026-10-21T12:37:10 IST" duration-ms="15381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCheckout()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:37:10 IST" name="openCheckout" finished-at="2026-10-21T12:37:43 IST" duration-ms="33405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckout -->
+        <test-method signature="verifyCheckoutPageOpens()[pri:1, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:37:43 IST" name="verifyCheckoutPageOpens" finished-at="2026-10-21T12:37:45 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CHK-01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:37:45 IST" name="tearDown" finished-at="2026-10-21T12:37:51 IST" duration-ms="6332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:37:51 IST" name="setUp" finished-at="2026-10-21T12:37:56 IST" duration-ms="5263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCheckout()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:37:56 IST" name="openCheckout" finished-at="2026-10-21T12:38:28 IST" duration-ms="31328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckout -->
+        <test-method signature="verifyCheckoutTitle()[pri:2, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:38:28 IST" name="verifyCheckoutTitle" finished-at="2026-10-21T12:38:28 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CHK-03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:38:28 IST" name="tearDown" finished-at="2026-10-21T12:38:33 IST" duration-ms="4991" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:38:33 IST" name="setUp" finished-at="2026-10-21T12:38:37 IST" duration-ms="4737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCheckout()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:38:37 IST" name="openCheckout" finished-at="2026-10-21T12:39:02 IST" duration-ms="24776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckout -->
+        <test-method signature="verifyBillingFieldsDisplayed()[pri:3, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:02 IST" name="verifyBillingFieldsDisplayed" finished-at="2026-10-21T12:39:03 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CHK-04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBillingFieldsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:03 IST" name="tearDown" finished-at="2026-10-21T12:39:03 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:03 IST" name="setUp" finished-at="2026-10-21T12:39:08 IST" duration-ms="4120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCheckout()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:08 IST" name="openCheckout" finished-at="2026-10-21T12:39:28 IST" duration-ms="20017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckout -->
+        <test-method signature="verifyValidBillingInformation()[pri:4, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:28 IST" name="verifyValidBillingInformation" finished-at="2026-10-21T12:39:33 IST" duration-ms="4956" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CHK-05 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidBillingInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:33 IST" name="tearDown" finished-at="2026-10-21T12:39:33 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:33 IST" name="setUp" finished-at="2026-10-21T12:39:38 IST" duration-ms="4495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCheckout()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:38 IST" name="openCheckout" finished-at="2026-10-21T12:39:55 IST" duration-ms="17754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckout -->
+        <test-method signature="verifyBlankBillingInformation()[pri:5, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:55 IST" name="verifyBlankBillingInformation" finished-at="2026-10-21T12:39:58 IST" duration-ms="2282" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CHK-06 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBlankBillingInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:58 IST" name="tearDown" finished-at="2026-10-21T12:39:59 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:39:59 IST" name="setUp" finished-at="2026-10-21T12:40:03 IST" duration-ms="4282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCheckout()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:03 IST" name="openCheckout" finished-at="2026-10-21T12:40:22 IST" duration-ms="18920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckout -->
+        <test-method signature="verifyInvalidEmail()[pri:6, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:22 IST" name="verifyInvalidEmail" finished-at="2026-10-21T12:40:27 IST" duration-ms="5189" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=155.0.8059.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49fbe5c2426d8800fcd0a4fdbc631a15, isElementDisplayed {id=f.C9859C93811EF57A2059C040CE28B249.d.C0D5B93832372A0BB5BA8B9CA77317BF.e.1813}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\sinuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1549}, goog:processID: 15688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1549/devtool..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49fbe5c2426d8800fcd0a4fdbc631a15)] -> id: BillingNewAddress_FirstName]
+Session ID: 49fbe5c2426d8800fcd0a4fdbc631a15]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=155.0.8059.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49fbe5c2426d8800fcd0a4fdbc631a15, isElementDisplayed {id=f.C9859C93811EF57A2059C040CE28B249.d.C0D5B93832372A0BB5BA8B9CA77317BF.e.1813}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\sinuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1549}, goog:processID: 15688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1549/devtool..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49fbe5c2426d8800fcd0a4fdbc631a15)] -> id: BillingNewAddress_FirstName]
+Session ID: 49fbe5c2426d8800fcd0a4fdbc631a15
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
+at objRepo.CheckOutPage.isBillingFormDisplayed(CheckOutPage.java:209)
+at checkout.CheckoutTest.verifyInvalidEmail(CheckoutTest.java:134)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:27 IST" name="tearDown" finished-at="2026-10-21T12:40:28 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:28 IST" name="setUp" finished-at="2026-10-21T12:40:32 IST" duration-ms="4270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCheckout()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:32 IST" name="openCheckout" finished-at="2026-10-21T12:40:51 IST" duration-ms="18873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckout -->
+        <test-method signature="verifyStateSelection()[pri:7, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:51 IST" name="verifyStateSelection" finished-at="2026-10-21T12:40:54 IST" duration-ms="2634" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CHK-09 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyStateSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:54 IST" name="tearDown" finished-at="2026-10-21T12:40:54 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:54 IST" name="setUp" finished-at="2026-10-21T12:40:58 IST" duration-ms="4471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCheckout()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:40:58 IST" name="openCheckout" finished-at="2026-10-21T12:41:19 IST" duration-ms="20963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckout -->
+        <test-method signature="completeCheckoutEndToEnd()[pri:8, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:41:19 IST" name="completeCheckoutEndToEnd" finished-at="2026-10-21T12:41:40 IST" duration-ms="20230" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Payment information verified: You will pay by COD]]>
+            </line>
+            <line>
+              <![CDATA[TC-CHK-10 Passed - Your order has been successfully processed!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutEndToEnd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.CheckoutTest@f1da57d]" started-at="2026-10-21T12:41:40 IST" name="tearDown" finished-at="2026-10-21T12:41:40 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- checkout.CheckoutTest -->
+      <class name="cart.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:36:54 IST" name="setUp" finished-at="2026-10-21T12:37:09 IST" duration-ms="14641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:37:09 IST" name="setUpCartTest" finished-at="2026-10-21T12:37:23 IST" duration-ms="14543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="verifyCartPageOpens()[pri:1, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:37:23 IST" name="verifyCartPageOpens" finished-at="2026-10-21T12:37:38 IST" duration-ms="14583" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CART-01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:37:38 IST" name="tearDown" finished-at="2026-10-21T12:37:39 IST" duration-ms="1450" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:37:39 IST" name="setUp" finished-at="2026-10-21T12:37:47 IST" duration-ms="7405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:37:47 IST" name="setUpCartTest" finished-at="2026-10-21T12:38:01 IST" duration-ms="13749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="verifyAddedProductAppears()[pri:2, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:38:01 IST" name="verifyAddedProductAppears" finished-at="2026-10-21T12:38:14 IST" duration-ms="13292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CART-02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddedProductAppears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:38:14 IST" name="tearDown" finished-at="2026-10-21T12:38:19 IST" duration-ms="4805" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:38:19 IST" name="setUp" finished-at="2026-10-21T12:38:26 IST" duration-ms="7704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:38:26 IST" name="setUpCartTest" finished-at="2026-10-21T12:38:41 IST" duration-ms="14161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="verifyProductQuantityDisplayed()[pri:3, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:38:41 IST" name="verifyProductQuantityDisplayed" finished-at="2026-10-21T12:38:51 IST" duration-ms="10122" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CART-03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductQuantityDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:38:51 IST" name="tearDown" finished-at="2026-10-21T12:38:52 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:38:52 IST" name="setUp" finished-at="2026-10-21T12:38:58 IST" duration-ms="5317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:38:58 IST" name="setUpCartTest" finished-at="2026-10-21T12:39:11 IST" duration-ms="13841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="updateQuantityToTwo()[pri:4, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:39:11 IST" name="updateQuantityToTwo" finished-at="2026-10-21T12:39:24 IST" duration-ms="12635" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CART-04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateQuantityToTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:39:24 IST" name="tearDown" finished-at="2026-10-21T12:39:25 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:39:25 IST" name="setUp" finished-at="2026-10-21T12:39:29 IST" duration-ms="4667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:39:29 IST" name="setUpCartTest" finished-at="2026-10-21T12:39:43 IST" duration-ms="13550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="updateQuantityToFive()[pri:5, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:39:43 IST" name="updateQuantityToFive" finished-at="2026-10-21T12:39:56 IST" duration-ms="13210" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CART-05 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateQuantityToFive -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:39:56 IST" name="tearDown" finished-at="2026-10-21T12:39:57 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:39:57 IST" name="setUp" finished-at="2026-10-21T12:40:01 IST" duration-ms="4592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:40:01 IST" name="setUpCartTest" finished-at="2026-10-21T12:40:15 IST" duration-ms="13882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="removeProductFromCart()[pri:6, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:40:15 IST" name="removeProductFromCart" finished-at="2026-10-21T12:40:48 IST" duration-ms="32525" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CART-07 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:40:48 IST" name="tearDown" finished-at="2026-10-21T12:40:48 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:40:48 IST" name="setUp" finished-at="2026-10-21T12:40:52 IST" duration-ms="4239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:40:52 IST" name="setUpCartTest" finished-at="2026-10-21T12:41:06 IST" duration-ms="13526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="verifySubtotalForOneProduct()[pri:7, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:41:06 IST" name="verifySubtotalForOneProduct" finished-at="2026-10-21T12:41:17 IST" duration-ms="10793" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CART-08 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySubtotalForOneProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cart.CartTest@5c80cf32]" started-at="2026-10-21T12:41:17 IST" name="tearDown" finished-at="2026-10-21T12:41:17 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cart.CartTest -->
+      <class name="logout.LogoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:36:54 IST" name="setUp" finished-at="2026-10-21T12:37:09 IST" duration-ms="14639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutLinkDisplayed()[pri:1, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:37:09 IST" name="verifyLogoutLinkDisplayed" finished-at="2026-10-21T12:37:21 IST" duration-ms="11929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-LOGOUT-01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLinkDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:37:21 IST" name="tearDown" finished-at="2026-10-21T12:37:31 IST" duration-ms="10043" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:37:31 IST" name="setUp" finished-at="2026-10-21T12:37:37 IST" duration-ms="6183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutFunctionality()[pri:2, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:37:37 IST" name="verifyLogoutFunctionality" finished-at="2026-10-21T12:37:50 IST" duration-ms="12834" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-LOGOUT-02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:37:50 IST" name="tearDown" finished-at="2026-10-21T12:37:52 IST" duration-ms="1694" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:37:52 IST" name="setUp" finished-at="2026-10-21T12:37:58 IST" duration-ms="6436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactUsPageOpens()[pri:3, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:37:58 IST" name="verifyContactUsPageOpens" finished-at="2026-10-21T12:38:00 IST" duration-ms="2249" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-LOGOUT-03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:00 IST" name="tearDown" finished-at="2026-10-21T12:38:03 IST" duration-ms="2955" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:03 IST" name="setUp" finished-at="2026-10-21T12:38:12 IST" duration-ms="8825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactFormFields()[pri:4, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:12 IST" name="verifyContactFormFields" finished-at="2026-10-21T12:38:15 IST" duration-ms="3090" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-LOGOUT-04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContactFormFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:15 IST" name="tearDown" finished-at="2026-10-21T12:38:19 IST" duration-ms="3326" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:19 IST" name="setUp" finished-at="2026-10-21T12:38:27 IST" duration-ms="8346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitContactFormWithValidData()[pri:5, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:27 IST" name="submitContactFormWithValidData" finished-at="2026-10-21T12:38:34 IST" duration-ms="7395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-LOGOUT-05 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submitContactFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:34 IST" name="tearDown" finished-at="2026-10-21T12:38:45 IST" duration-ms="10307" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:45 IST" name="setUp" finished-at="2026-10-21T12:38:50 IST" duration-ms="5462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitContactFormWithInvalidEmail()[pri:6, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:50 IST" name="submitContactFormWithInvalidEmail" finished-at="2026-10-21T12:38:58 IST" duration-ms="8423" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-LOGOUT-06 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submitContactFormWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout.LogoutTest@194fad1]" started-at="2026-10-21T12:38:58 IST" name="tearDown" finished-at="2026-10-21T12:38:59 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- logout.LogoutTest -->
+      <class name="login.SignupLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:36:54 IST" name="setUp" finished-at="2026-10-21T12:37:10 IST" duration-ms="15393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegistrationControls()[pri:1, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:37:10 IST" name="verifyRegistrationControls" finished-at="2026-10-21T12:37:13 IST" duration-ms="3183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-AUTH-01 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationControls -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:37:13 IST" name="tearDown" finished-at="2026-10-21T12:37:14 IST" duration-ms="1587" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:37:14 IST" name="setUp" finished-at="2026-10-21T12:37:24 IST" duration-ms="9716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerNewUser()[pri:2, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:37:24 IST" name="registerNewUser" finished-at="2026-10-21T12:37:34 IST" duration-ms="10290" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-AUTH-02 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:37:34 IST" name="tearDown" finished-at="2026-10-21T12:37:39 IST" duration-ms="4988" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:37:39 IST" name="setUp" finished-at="2026-10-21T12:37:47 IST" duration-ms="7441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerWithBlankFields()[pri:3, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:37:47 IST" name="registerWithBlankFields" finished-at="2026-10-21T12:37:55 IST" duration-ms="7874" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-AUTH-03 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerWithBlankFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:37:55 IST" name="tearDown" finished-at="2026-10-21T12:38:00 IST" duration-ms="4873" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:38:00 IST" name="setUp" finished-at="2026-10-21T12:38:11 IST" duration-ms="11222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerWithInvalidEmail()[pri:4, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:38:11 IST" name="registerWithInvalidEmail" finished-at="2026-10-21T12:38:23 IST" duration-ms="12133" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-AUTH-04 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:38:23 IST" name="tearDown" finished-at="2026-10-21T12:38:34 IST" duration-ms="11161" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:38:34 IST" name="setUp" finished-at="2026-10-21T12:38:39 IST" duration-ms="4934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:5, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:38:39 IST" name="validLoginTest" finished-at="2026-10-21T12:38:49 IST" duration-ms="10248" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-AUTH-06 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:38:49 IST" name="tearDown" finished-at="2026-10-21T12:38:52 IST" duration-ms="2319" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:38:52 IST" name="setUp" finished-at="2026-10-21T12:38:57 IST" duration-ms="4967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordTest()[pri:6, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:38:57 IST" name="invalidPasswordTest" finished-at="2026-10-21T12:39:06 IST" duration-ms="9363" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-AUTH-08 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:39:06 IST" name="tearDown" finished-at="2026-10-21T12:39:07 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:39:07 IST" name="setUp" finished-at="2026-10-21T12:39:12 IST" duration-ms="4729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unregisteredEmailTest()[pri:7, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:39:12 IST" name="unregisteredEmailTest" finished-at="2026-10-21T12:39:21 IST" duration-ms="8507" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-AUTH-09 Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- unregisteredEmailTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.SignupLoginTest@451001e5]" started-at="2026-10-21T12:39:21 IST" name="tearDown" finished-at="2026-10-21T12:39:22 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.SignupLoginTest -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- Parallel Suite -->
+</testng-results>

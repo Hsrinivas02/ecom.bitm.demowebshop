@@ -1,0 +1,503 @@
+<html>
+<head>
+<title>TestNG:  All Test Classes</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Test Classes</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>35/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 21 11:55:35 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>675 seconds (675309 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyCheckoutTitle()'><b>verifyCheckoutTitle</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-197470785" onClick='toggleBox("Output-197470785", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-197470785" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-197470785">
+TC-CHK-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='logout.LogoutTest.verifyLogoutLinkDisplayed()'><b>verifyLogoutLinkDisplayed</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-658022908" onClick='toggleBox("Output-658022908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-658022908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-658022908">
+TC-LOGOUT-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='login.SignupLoginTest.registerWithInvalidEmail()'><b>registerWithInvalidEmail</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-1595362770" onClick='toggleBox("Output-1595362770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1595362770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1595362770">
+TC-AUTH-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='login.SignupLoginTest.registerNewUser()'><b>registerNewUser</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-310014578" onClick='toggleBox("Output-310014578", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-310014578" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-310014578">
+TC-AUTH-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyBillingFieldsDisplayed()'><b>verifyBillingFieldsDisplayed</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-1113560279" onClick='toggleBox("Output-1113560279", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1113560279" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1113560279">
+TC-CHK-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='products.ProductTest.searchUsingPartialKeyword()'><b>searchUsingPartialKeyword</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-656898222" onClick='toggleBox("Output-656898222", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-656898222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-656898222">
+TC-HOME-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='login.SignupLoginTest.registerWithBlankFields()'><b>registerWithBlankFields</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-898283008" onClick='toggleBox("Output-898283008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-898283008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-898283008">
+TC-AUTH-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='login.SignupLoginTest.unregisteredEmailTest()'><b>unregisteredEmailTest</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-245386411" onClick='toggleBox("Output-245386411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-245386411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-245386411">
+TC-AUTH-09 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='products.ProductTest.verifyHomepageLoads()'><b>verifyHomepageLoads</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1582906120" onClick='toggleBox("Output-1582906120", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1582906120" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1582906120">
+TC-HOME-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='products.ProductTest.searchUsingValidKeyword()'><b>searchUsingValidKeyword</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1434741143" onClick='toggleBox("Output-1434741143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1434741143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1434741143">
+TC-HOME-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='products.ProductTest.verifyLogoAndNavigation()'><b>verifyLogoAndNavigation</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-725931728" onClick='toggleBox("Output-725931728", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-725931728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-725931728">
+TC-HOME-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyCheckoutPageOpens()'><b>verifyCheckoutPageOpens</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-896475319" onClick='toggleBox("Output-896475319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-896475319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-896475319">
+TC-CHK-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='cart.CartTest.verifyAddedProductAppears()'><b>verifyAddedProductAppears</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1113898680" onClick='toggleBox("Output-1113898680", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1113898680" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1113898680">
+TC-CART-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='products.ProductTest.searchUsingCompleteProductName()'><b>searchUsingCompleteProductName</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-2061424899" onClick='toggleBox("Output-2061424899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2061424899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2061424899">
+TC-HOME-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyStateSelection()'><b>verifyStateSelection</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-1523475985" onClick='toggleBox("Output-1523475985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1523475985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1523475985">
+TC-CHK-09 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='cart.CartTest.updateQuantityToTwo()'><b>updateQuantityToTwo</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1864683077" onClick='toggleBox("Output-1864683077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1864683077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1864683077">
+TC-CART-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='cart.CartTest.verifyCartPageOpens()'><b>verifyCartPageOpens</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1263153064" onClick='toggleBox("Output-1263153064", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1263153064" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1263153064">
+TC-CART-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='login.SignupLoginTest.verifyRegistrationControls()'><b>verifyRegistrationControls</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-415906914" onClick='toggleBox("Output-415906914", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-415906914" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-415906914">
+TC-AUTH-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='products.ProductTest.verifyNegativeSearchScenarios()'><b>verifyNegativeSearchScenarios</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-2003287374" onClick='toggleBox("Output-2003287374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2003287374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2003287374">
+Unmatched product search verified<br/>
+Blank product search validation verified<br/>
+TC-HOME-09 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='cart.CartTest.verifySubtotalForOneProduct()'><b>verifySubtotalForOneProduct</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-2059830767" onClick='toggleBox("Output-2059830767", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2059830767" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2059830767">
+TC-CART-08 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyValidBillingInformation()'><b>verifyValidBillingInformation</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-1853827541" onClick='toggleBox("Output-1853827541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1853827541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1853827541">
+TC-CHK-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='cart.CartTest.updateQuantityToFive()'><b>updateQuantityToFive</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-700816238" onClick='toggleBox("Output-700816238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-700816238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-700816238">
+TC-CART-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='products.ProductTest.verifySearchControls()'><b>verifySearchControls</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-528280723" onClick='toggleBox("Output-528280723", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-528280723" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-528280723">
+TC-HOME-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='logout.LogoutTest.verifyContactUsPageOpens()'><b>verifyContactUsPageOpens</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-1321012050" onClick='toggleBox("Output-1321012050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1321012050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1321012050">
+TC-LOGOUT-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyBlankBillingInformation()'><b>verifyBlankBillingInformation</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-535296534" onClick='toggleBox("Output-535296534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-535296534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-535296534">
+TC-CHK-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='logout.LogoutTest.submitContactFormWithInvalidEmail()'><b>submitContactFormWithInvalidEmail</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-1458893701" onClick='toggleBox("Output-1458893701", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1458893701" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1458893701">
+TC-LOGOUT-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyInvalidEmail()'><b>verifyInvalidEmail</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-645621647" onClick='toggleBox("Output-645621647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-645621647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-645621647">
+TC-CHK-07 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='login.SignupLoginTest.invalidPasswordTest()'><b>invalidPasswordTest</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-1933493643" onClick='toggleBox("Output-1933493643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1933493643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1933493643">
+TC-AUTH-08 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='cart.CartTest.verifyProductQuantityDisplayed()'><b>verifyProductQuantityDisplayed</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1594259443" onClick='toggleBox("Output-1594259443", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1594259443" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1594259443">
+TC-CART-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='logout.LogoutTest.verifyLogoutFunctionality()'><b>verifyLogoutFunctionality</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-1704289773" onClick='toggleBox("Output-1704289773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1704289773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1704289773">
+TC-LOGOUT-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='login.SignupLoginTest.validLoginTest()'><b>validLoginTest</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-1229365242" onClick='toggleBox("Output-1229365242", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1229365242" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1229365242">
+TC-AUTH-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='cart.CartTest.removeProductFromCart()'><b>removeProductFromCart</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-620506240" onClick='toggleBox("Output-620506240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-620506240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-620506240">
+TC-CART-07 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.completeCheckoutEndToEnd()'><b>completeCheckoutEndToEnd</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-307868325" onClick='toggleBox("Output-307868325", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-307868325" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-307868325">
+Payment information verified: You will pay by COD<br/>
+TC-CHK-10 Passed - Your order has been successfully processed!<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='logout.LogoutTest.verifyContactFormFields()'><b>verifyContactFormFields</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-634320051" onClick='toggleBox("Output-634320051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-634320051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-634320051">
+TC-LOGOUT-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='logout.LogoutTest.submitContactFormWithValidData()'><b>submitContactFormWithValidData</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-2033788292" onClick='toggleBox("Output-2033788292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2033788292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2033788292">
+TC-LOGOUT-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+</table><p>
+</body>
+</html>

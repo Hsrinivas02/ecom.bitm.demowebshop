@@ -1,0 +1,569 @@
+<html>
+<head>
+<title>TestNG:  Parallel Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Parallel Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 21 12:36:54 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>285 seconds (285990 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyInvalidEmail()'><b>verifyInvalidEmail</b><br>Test class: checkout.CheckoutTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=155.0.8059.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49fbe5c2426d8800fcd0a4fdbc631a15, isElementDisplayed {id=f.C9859C93811EF57A2059C040CE28B249.d.C0D5B93832372A0BB5BA8B9CA77317BF.e.1813}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\sinuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1549}, goog:processID: 15688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1549/devtool..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49fbe5c2426d8800fcd0a4fdbc631a15)] -&gt; id: BillingNewAddress_FirstName]
+Session ID: 49fbe5c2426d8800fcd0a4fdbc631a15
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
+	at objRepo.CheckOutPage.isBillingFormDisplayed(CheckOutPage.java:209)
+	at checkout.CheckoutTest.verifyInvalidEmail(CheckoutTest.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1947323537", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1947323537'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=155.0.8059.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49fbe5c2426d8800fcd0a4fdbc631a15, isElementDisplayed {id=f.C9859C93811EF57A2059C040CE28B249.d.C0D5B93832372A0BB5BA8B9CA77317BF.e.1813}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\sinuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1549}, goog:processID: 15688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1549/devtool..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49fbe5c2426d8800fcd0a4fdbc631a15)] -&gt; id: BillingNewAddress_FirstName]
+Session ID: 49fbe5c2426d8800fcd0a4fdbc631a15
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
+	at objRepo.CheckOutPage.isBillingFormDisplayed(CheckOutPage.java:209)
+	at checkout.CheckoutTest.verifyInvalidEmail(CheckoutTest.java:134)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>5</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyStateSelection()'><b>verifyStateSelection</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-506311085" onClick='toggleBox("Output-506311085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-506311085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-506311085">
+TC-CHK-09 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='logout.LogoutTest.verifyContactUsPageOpens()'><b>verifyContactUsPageOpens</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-1422891214" onClick='toggleBox("Output-1422891214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1422891214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1422891214">
+TC-LOGOUT-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='login.SignupLoginTest.verifyRegistrationControls()'><b>verifyRegistrationControls</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-2043733202" onClick='toggleBox("Output-2043733202", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2043733202" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2043733202">
+TC-AUTH-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='logout.LogoutTest.submitContactFormWithInvalidEmail()'><b>submitContactFormWithInvalidEmail</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-1074243077" onClick='toggleBox("Output-1074243077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1074243077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1074243077">
+TC-LOGOUT-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='login.SignupLoginTest.invalidPasswordTest()'><b>invalidPasswordTest</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-1105408171" onClick='toggleBox("Output-1105408171", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1105408171" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1105408171">
+TC-AUTH-08 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='products.ProductTest.verifySearchControls()'><b>verifySearchControls</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1509099256" onClick='toggleBox("Output-1509099256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1509099256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1509099256">
+TC-HOME-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='products.ProductTest.searchUsingPartialKeyword()'><b>searchUsingPartialKeyword</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-436172014" onClick='toggleBox("Output-436172014", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-436172014" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-436172014">
+TC-HOME-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='cart.CartTest.updateQuantityToFive()'><b>updateQuantityToFive</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1423761037" onClick='toggleBox("Output-1423761037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1423761037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1423761037">
+TC-CART-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='login.SignupLoginTest.registerNewUser()'><b>registerNewUser</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-1330327065" onClick='toggleBox("Output-1330327065", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1330327065" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1330327065">
+TC-AUTH-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='products.ProductTest.verifyNegativeSearchScenarios()'><b>verifyNegativeSearchScenarios</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1559595686" onClick='toggleBox("Output-1559595686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1559595686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1559595686">
+Unmatched product search verified<br/>
+Blank product search validation verified<br/>
+TC-HOME-09 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='cart.CartTest.updateQuantityToTwo()'><b>updateQuantityToTwo</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1093587130" onClick='toggleBox("Output-1093587130", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1093587130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1093587130">
+TC-CART-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyValidBillingInformation()'><b>verifyValidBillingInformation</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-1738667321" onClick='toggleBox("Output-1738667321", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1738667321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1738667321">
+TC-CHK-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='products.ProductTest.verifyHomepageLoads()'><b>verifyHomepageLoads</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1352983160" onClick='toggleBox("Output-1352983160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1352983160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1352983160">
+TC-HOME-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='login.SignupLoginTest.registerWithBlankFields()'><b>registerWithBlankFields</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-2051090013" onClick='toggleBox("Output-2051090013", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2051090013" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2051090013">
+TC-AUTH-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.completeCheckoutEndToEnd()'><b>completeCheckoutEndToEnd</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-429481285" onClick='toggleBox("Output-429481285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-429481285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-429481285">
+Payment information verified: You will pay by COD<br/>
+TC-CHK-10 Passed - Your order has been successfully processed!<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='logout.LogoutTest.verifyLogoutFunctionality()'><b>verifyLogoutFunctionality</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-113932692" onClick='toggleBox("Output-113932692", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-113932692" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-113932692">
+TC-LOGOUT-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyBlankBillingInformation()'><b>verifyBlankBillingInformation</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-757262076" onClick='toggleBox("Output-757262076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-757262076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-757262076">
+TC-CHK-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='products.ProductTest.searchUsingValidKeyword()'><b>searchUsingValidKeyword</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1754001195" onClick='toggleBox("Output-1754001195", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1754001195" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1754001195">
+TC-HOME-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='cart.CartTest.verifySubtotalForOneProduct()'><b>verifySubtotalForOneProduct</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1091119464" onClick='toggleBox("Output-1091119464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1091119464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1091119464">
+TC-CART-08 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='products.ProductTest.verifyLogoAndNavigation()'><b>verifyLogoAndNavigation</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1453072190" onClick='toggleBox("Output-1453072190", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1453072190" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1453072190">
+TC-HOME-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='cart.CartTest.removeProductFromCart()'><b>removeProductFromCart</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1078735022" onClick='toggleBox("Output-1078735022", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1078735022" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1078735022">
+TC-CART-07 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyCheckoutTitle()'><b>verifyCheckoutTitle</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-1973502722" onClick='toggleBox("Output-1973502722", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1973502722" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1973502722">
+TC-CHK-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='logout.LogoutTest.submitContactFormWithValidData()'><b>submitContactFormWithValidData</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-392661956" onClick='toggleBox("Output-392661956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-392661956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-392661956">
+TC-LOGOUT-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='login.SignupLoginTest.registerWithInvalidEmail()'><b>registerWithInvalidEmail</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-1540471732" onClick='toggleBox("Output-1540471732", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1540471732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1540471732">
+TC-AUTH-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='cart.CartTest.verifyProductQuantityDisplayed()'><b>verifyProductQuantityDisplayed</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-799566926" onClick='toggleBox("Output-799566926", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-799566926" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-799566926">
+TC-CART-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyCheckoutPageOpens()'><b>verifyCheckoutPageOpens</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-589417993" onClick='toggleBox("Output-589417993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-589417993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589417993">
+TC-CHK-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='login.SignupLoginTest.validLoginTest()'><b>validLoginTest</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-1575408200" onClick='toggleBox("Output-1575408200", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1575408200" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1575408200">
+TC-AUTH-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='logout.LogoutTest.verifyContactFormFields()'><b>verifyContactFormFields</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-627699161" onClick='toggleBox("Output-627699161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-627699161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-627699161">
+TC-LOGOUT-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyBillingFieldsDisplayed()'><b>verifyBillingFieldsDisplayed</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-2089837537" onClick='toggleBox("Output-2089837537", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2089837537" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2089837537">
+TC-CHK-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>checkout.CheckoutTest@f1da57d</td></tr>
+<tr>
+<td title='cart.CartTest.verifyAddedProductAppears()'><b>verifyAddedProductAppears</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-595172747" onClick='toggleBox("Output-595172747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-595172747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-595172747">
+TC-CART-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='login.SignupLoginTest.unregisteredEmailTest()'><b>unregisteredEmailTest</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-1149614710" onClick='toggleBox("Output-1149614710", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1149614710" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1149614710">
+TC-AUTH-09 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>login.SignupLoginTest@451001e5</td></tr>
+<tr>
+<td title='cart.CartTest.verifyCartPageOpens()'><b>verifyCartPageOpens</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-2020121757" onClick='toggleBox("Output-2020121757", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2020121757" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2020121757">
+TC-CART-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>cart.CartTest@5c80cf32</td></tr>
+<tr>
+<td title='products.ProductTest.searchUsingCompleteProductName()'><b>searchUsingCompleteProductName</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1800461478" onClick='toggleBox("Output-1800461478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1800461478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1800461478">
+TC-HOME-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>products.ProductTest@6f53b8a</td></tr>
+<tr>
+<td title='logout.LogoutTest.verifyLogoutLinkDisplayed()'><b>verifyLogoutLinkDisplayed</b><br>Test class: logout.LogoutTest<br/>
+<a href="#Output-948197630" onClick='toggleBox("Output-948197630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-948197630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-948197630">
+TC-LOGOUT-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>logout.LogoutTest@194fad1</td></tr>
+</table><p>
+</body>
+</html>

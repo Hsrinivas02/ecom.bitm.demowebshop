@@ -9,13 +9,11 @@ import genericUtility.BaseClass;
 import genericUtility.ExcelUtility;
 public class SignupLoginTest extends BaseClass {
     ScreenshotUtility wUtil = new ScreenshotUtility();
-
     // TC-AUTH-01: Verify registration controls
     @Test(groups = {"functionalGroup"}, priority = 1)
     public void verifyRegistrationControls() throws InterruptedException {
         registerPage.registerLink.click();
         Thread.sleep(1000);
-
         Assert.assertTrue(registerPage.maleGender.isDisplayed());
         Assert.assertTrue(registerPage.firstName.isDisplayed());
         Assert.assertTrue(registerPage.lastName.isDisplayed());
@@ -23,7 +21,6 @@ public class SignupLoginTest extends BaseClass {
         Assert.assertTrue(registerPage.password.isDisplayed());
         Assert.assertTrue(registerPage.confirmPassword.isDisplayed());
         Assert.assertTrue(registerPage.registerBtn.isDisplayed());
-
         Reporter.log("TC-AUTH-01 Passed", true);
     }
 
@@ -37,7 +34,7 @@ public class SignupLoginTest extends BaseClass {
         String gender = ExcelUtility.getData("SignupLoginData", 1, 6);
 
         String email = "ugram" + (100000 + new Random().nextInt(900000)) + "@gmail.com";
-
+        //Here it generates 6 dig random no. from 0 to <900000 but incase it generates 0 add with 100000
         registerPage.registerLink.click();
         Thread.sleep(1000);
         registerPage.register(gender, firstName, lastName, email, password, confirmPassword);
@@ -85,12 +82,10 @@ public class SignupLoginTest extends BaseClass {
     public void validLoginTest() throws IOException, InterruptedException {
         String email = ExcelUtility.getData("SignupLoginData", 4, 1);
         String password = ExcelUtility.getData("SignupLoginData", 4, 2);
-
         loginPage.loginLink.click();
         Thread.sleep(1000);
         loginPage.login(email, password);
         Thread.sleep(1000);
-
         Assert.assertTrue(loginPage.logoutLink.isDisplayed(), "Login was not successful");
         Reporter.log("TC-AUTH-06 Passed", true);
     }

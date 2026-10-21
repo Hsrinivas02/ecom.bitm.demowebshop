@@ -18,9 +18,6 @@ public class CheckOutPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(css = ".page-title h1")
-    public WebElement pageTitle;
-
     @FindBy(id = "BillingNewAddress_FirstName")
     public WebElement firstName;
 
@@ -36,9 +33,6 @@ public class CheckOutPage {
     @FindBy(id = "BillingNewAddress_StateProvinceId")
     public WebElement state;
 
-    @FindBy(id = "billing-address-select")
-    public WebElement billingAddressSelect;
-
     @FindBy(id = "BillingNewAddress_City")
     public WebElement city;
 
@@ -51,9 +45,6 @@ public class CheckOutPage {
     @FindBy(id = "BillingNewAddress_PhoneNumber")
     public WebElement phoneNumber;
 
-    @FindBy(css = "input.new-address-next-step-button")
-    public WebElement continueBtn;
-
     @FindBy(css = ".field-validation-error, .validation-summary-errors")
     public List<WebElement> errorMessages;
 
@@ -62,7 +53,6 @@ public class CheckOutPage {
         List<WebElement> dropdowns = driver.findElements(By.id("billing-address-select"));
         if (!dropdowns.isEmpty() && dropdowns.get(0).isDisplayed()) {
             Select addressSelect = new Select(dropdowns.get(0));
-
             for (WebElement option : addressSelect.getOptions()) {
                 if (option.getText().trim().equalsIgnoreCase("New Address")) {
                     addressSelect.selectByVisibleText(option.getText());
@@ -70,7 +60,6 @@ public class CheckOutPage {
                 }
             }
         }
-
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("BillingNewAddress_FirstName")));
     }
 
@@ -102,9 +91,7 @@ public class CheckOutPage {
         emailField.sendKeys(mail);
 
         new Select(driver.findElement(By.id("BillingNewAddress_CountryId"))).selectByVisibleText(countryName);
-
         Thread.sleep(1000);
-
         WebElement stateField = driver.findElement(By.id("BillingNewAddress_StateProvinceId"));
 
         if (stateName != null && !stateName.trim().isEmpty()) {
@@ -135,28 +122,21 @@ public class CheckOutPage {
 
     // Continue from shipping address
     public boolean continueFromShippingAddress() throws InterruptedException {
-
         By locator = By.cssSelector("#checkout-step-shipping .new-address-next-step-button, " + "#shipping-address-buttons-container .new-address-next-step-button, " + "input.shipping-address-next-step-button");
-
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
             WebElement button = wait.until(d -> {
                 List<WebElement> buttons = d.findElements(locator);
-
                 for (WebElement element : buttons) {
                     if (element.isDisplayed() && element.isEnabled()) {
                         return element;
                     }
                 }
-
                 return null;
             });
-
             button.click();
             Thread.sleep(1000);
             return true;
-
         } catch (Exception e) {
             System.out.println("Shipping address Continue button was not found.");
             System.out.println("Current URL: " + driver.getCurrentUrl());
@@ -174,10 +154,8 @@ public class CheckOutPage {
     // Select Cash On Delivery
     public boolean selectPaymentMethod() {
         List<WebElement> methods = driver.findElements(By.cssSelector("input[name='paymentmethod']"));
-
         for (WebElement method : methods) {
             String value = method.getAttribute("value");
-
             if (value != null && value.toLowerCase().contains("cashondelivery")) {
                 if (!method.isSelected()) {
                     method.click();
@@ -185,7 +163,6 @@ public class CheckOutPage {
                 return true;
             }
         }
-
         return false;
     }
 
@@ -228,13 +205,11 @@ public class CheckOutPage {
     // Check billing form visibility
     public boolean isBillingFormDisplayed() {
         List<WebElement> elements = driver.findElements(By.id("BillingNewAddress_FirstName"));
-
         for (WebElement element : elements) {
             if (element.isDisplayed()) {
                 return true;
             }
         }
-
         return false;
     }
 

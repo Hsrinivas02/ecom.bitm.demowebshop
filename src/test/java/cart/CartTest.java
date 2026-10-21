@@ -1,6 +1,8 @@
 package cart;
 import java.io.IOException;
 import java.util.List;
+
+import genericUtility.PropertyUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -12,8 +14,8 @@ import genericUtility.ExcelUtility;
 public class CartTest extends BaseClass {
     // Prepare browser before every test, clear any existing cart items, and return to the homepage.
     @BeforeMethod(alwaysRun = true)
-    public void setUpCartTest() throws InterruptedException {
-        driver.get("https://demowebshop.tricentis.com/cart");
+    public void setUpCartTest() throws InterruptedException, IOException { //Remove products that are added to the cart
+        driver.get(PropertyUtility.getData("cartUrl"));
         Thread.sleep(1000);
         List<WebElement> removeCheckboxes = driver.findElements(By.cssSelector(".remove-from-cart input"));
         if (!removeCheckboxes.isEmpty()) {
@@ -25,13 +27,13 @@ public class CartTest extends BaseClass {
             driver.findElement(By.name("updatecart")).click();
             Thread.sleep(1500);
         }
-        driver.get("https://demowebshop.tricentis.com/");
+        driver.get(PropertyUtility.getData("url"));
         Thread.sleep(1000);
     }
 
     // Add a product and open the cart
-    public void addProductAndOpenCart(String productName) throws InterruptedException {
-        driver.get("https://demowebshop.tricentis.com/search?q=" + productName.replace(" ", "+"));
+    public void addProductAndOpenCart(String productName) throws InterruptedException, IOException {//Digital computer
+        driver.get("https://demowebshop.tricentis.com/search?q=" + productName.replace(" ", "+")); //Eg:https://demowebshop.tricentis.com/search?q=Digital+computer
         Thread.sleep(1500);
         boolean productFound = false;
         for (WebElement product : driver.findElements(By.cssSelector(".product-title a"))) {
@@ -41,15 +43,13 @@ public class CartTest extends BaseClass {
                 break;
             }
         }
-
         Assert.assertTrue(productFound, "Product not found in search results: " + productName);
         Thread.sleep(1500);
         WebElement addToCartButton = driver.findElement(By.cssSelector("input.add-to-cart-button, button.add-to-cart-button"));
         addToCartButton.click();
         Thread.sleep(1500);
-
         // Open cart directly to avoid notification overlay click errors
-        driver.get("https://demowebshop.tricentis.com/cart");
+        driver.get(PropertyUtility.getData("cartUrl")); //https://demowebshop.tricentis.com/cart
         Thread.sleep(1500);
     }
 
@@ -58,7 +58,6 @@ public class CartTest extends BaseClass {
     public void verifyCartPageOpens() throws IOException, InterruptedException {
         String productName = ExcelUtility.getData("CartData", 1, 1);
         addProductAndOpenCart(productName);
-
         Assert.assertTrue(cartPage.getPageTitle().toLowerCase().contains("shopping cart"), "Cart page did not open");
         Reporter.log("TC-CART-01 Passed", true);
     }
@@ -78,8 +77,7 @@ public class CartTest extends BaseClass {
     public void verifyProductQuantityDisplayed() throws IOException, InterruptedException {
         String productName = ExcelUtility.getData("CartData", 3, 1);
         addProductAndOpenCart(productName);
-
-        Assert.assertFalse(cartPage.quantities.isEmpty(), "Quantity field is not displayed");
+        Assert.assertTrue(!cartPage.quantities.isEmpty(), "Quantity field is not displayed");
         Assert.assertEquals(cartPage.quantities.get(0).getAttribute("value"), "1", "Default quantity is not 1");
         Reporter.log("TC-CART-03 Passed", true);
     }
@@ -116,7 +114,7 @@ public class CartTest extends BaseClass {
         cartPage.removeFirstProduct();
 
         Assert.assertEquals(cartPage.getCartItemCount(), 0, "Product was not removed from cart");
-        Assert.assertFalse(cartPage.isProductDisplayed(productName), "Removed product is still displayed");
+        Assert.assertTrue(!cartPage.isProductDisplayed(productName), "Removed product is still displayed");
         Reporter.log("TC-CART-07 Passed", true);
     }
 
@@ -125,9 +123,8 @@ public class CartTest extends BaseClass {
     public void verifySubtotalForOneProduct() throws IOException, InterruptedException {
         String productName = ExcelUtility.getData("CartData", 7, 1);
         addProductAndOpenCart(productName);
-
-        Assert.assertFalse(cartPage.productSubtotals.isEmpty(), "Product subtotal is not displayed");
-        Assert.assertFalse(cartPage.getFirstProductSubtotal().isEmpty(), "Product subtotal is blank");
+        Assert.assertTrue(!cartPage.productSubtotals.isEmpty(), "Product subtotal is not displayed");
+        Assert.assertTrue(!cartPage.getFirstProductSubtotal().isEmpty(), "Product subtotal is blank");
         Reporter.log("TC-CART-08 Passed", true);
     }
 }

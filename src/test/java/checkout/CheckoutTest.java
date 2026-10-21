@@ -1,5 +1,7 @@
 package checkout;
 import java.io.IOException;
+
+import genericUtility.PropertyUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -10,21 +12,19 @@ import org.testng.annotations.Test;
 import genericUtility.BaseClass;
 import genericUtility.ExcelUtility;
 import genericUtility.ScreenshotUtility;
-
 public class CheckoutTest extends BaseClass {
     ScreenshotUtility wUtil = new ScreenshotUtility();
-
     // Login and open checkout before each test
     @BeforeMethod(alwaysRun = true)
     public void openCheckout() throws IOException, InterruptedException {
-        driver.get("https://demowebshop.tricentis.com/login");
+        driver.get(PropertyUtility.getData("loginUrl")); //https://demowebshop.tricentis.com/login
 
         String email = ExcelUtility.getData("SignupLoginData", 6, 1);
         String password = ExcelUtility.getData("SignupLoginData", 6, 2);
         loginPage.login(email, password);
 
         String productName = ExcelUtility.getData("CartData", 1, 1);
-        driver.get("https://demowebshop.tricentis.com/");
+        driver.get(PropertyUtility.getData("url"));
         productPage.searchProduct(productName);
 
         boolean found = false;
@@ -41,7 +41,7 @@ public class CheckoutTest extends BaseClass {
         driver.findElement(By.cssSelector("input.add-to-cart-button")).click();
         Thread.sleep(1500);
 
-        driver.get("https://demowebshop.tricentis.com/cart");
+        driver.get(PropertyUtility.getData("cartUrl")); //https://demowebshop.tricentis.com/cart
         Thread.sleep(1000);
 
         WebElement terms = driver.findElement(By.id("termsofservice"));
@@ -100,7 +100,6 @@ public class CheckoutTest extends BaseClass {
         Assert.assertEquals(checkOutPage.firstName.getAttribute("value"), data(4, 1));
         Assert.assertEquals(checkOutPage.lastName.getAttribute("value"), data(4, 2));
         Assert.assertEquals(checkOutPage.email.getAttribute("value"), data(4, 3));
-
         Reporter.log("TC-CHK-05 Passed", true);
     }
 
@@ -130,7 +129,6 @@ public class CheckoutTest extends BaseClass {
         fillBillingData(6);
         checkOutPage.clickContinue();
         Thread.sleep(1000);
-
         wUtil.takingScreenshot(driver, "InvalidCheckoutEmail");
 
         Assert.assertTrue(checkOutPage.isBillingFormDisplayed() || checkOutPage.isErrorDisplayed(), "Invalid email was accepted without validation");
@@ -156,7 +154,6 @@ public class CheckoutTest extends BaseClass {
         fillBillingData(8);
         checkOutPage.clickContinue();
         Thread.sleep(1000);
-
         Assert.assertFalse(checkOutPage.isErrorDisplayed(), "Billing validation errors appeared. Check CheckoutData row 8.");
 
         // Step 2: Continue from shipping address
@@ -176,7 +173,6 @@ public class CheckoutTest extends BaseClass {
         if (pageText.contains("You will pay by COD")) {
             Reporter.log("Payment information verified: You will pay by COD", true);
         }
-
         Assert.assertTrue(checkOutPage.continueFromPaymentInformation(), "Could not continue from payment information.");
 
         // Step 6: Confirm order
@@ -184,7 +180,6 @@ public class CheckoutTest extends BaseClass {
 
         // Step 7: Verify order confirmation
         Assert.assertTrue(checkOutPage.isOrderConfirmationDisplayed(), "Order confirmation was not displayed.");
-
         Reporter.log("TC-CHK-10 Passed - Your order has been successfully processed!", true);
     }
 }

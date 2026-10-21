@@ -6,7 +6,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 public class ScreenshotUtility {
-
     public void takingScreenshot(WebDriver driver, String fileName) throws IOException {
         File folder = new File("./screenshots");
         if (!folder.exists()) {

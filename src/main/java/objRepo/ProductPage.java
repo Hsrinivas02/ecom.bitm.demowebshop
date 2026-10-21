@@ -1,6 +1,4 @@
-
 package objRepo;
-
 import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ProductPage {
     WebDriver driver;
-
     public ProductPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -17,11 +14,13 @@ public class ProductPage {
 
     // Homepage logo
     @FindBy(css = ".header-logo a")
-    public WebElement logo;
+    public WebElement logo; //Using .header-logo a is more appropriate
+    // because you're explicitly locating the clickable link.
 
     // Main navigation categories
     @FindBy(css = ".header-menu > ul > li")
-    public List<WebElement> navigationLinks;
+    public List<WebElement> navigationLinks; //.header-menu → Finds the navigation menu, > Selects a direct child.
+    //ul-> Finds the direct child <ul>,  > i.e Finds its direct children, li->Selects each menu item.
 
     // Search textbox
     @FindBy(id = "small-searchterms")
@@ -32,20 +31,12 @@ public class ProductPage {
     public WebElement searchBtn;
 
     // Product names in search results
-    @FindBy(css = ".product-title a")
+    @FindBy(css = ".product-title a") //class product-title is wrapped in anchor tag
     public List<WebElement> productNames;
 
-    // Product prices
-    @FindBy(css = ".product-item .prices .price")
-    public List<WebElement> productPrices;
-
     // Product details title
-    @FindBy(css = ".product-name h1, .product-name")
+    @FindBy(css = ".product-name")
     public WebElement productTitle;
-
-    // Shopping cart link
-    @FindBy(className = "ico-cart")
-    public WebElement cartLink;
 
     // Search for a product
     public void searchProduct(String value) throws InterruptedException {
@@ -65,23 +56,6 @@ public class ProductPage {
             }
         }
         return false;
-    }
-
-    // Open a product from search results
-    public void openProduct(String productName) throws InterruptedException {
-        for (WebElement product : productNames) {
-            if (product.getText().trim().equalsIgnoreCase(productName.trim())) {
-                product.click();
-                Thread.sleep(1500);
-                return;
-            }
-        }
-        throw new RuntimeException("Product not found: " + productName);
-    }
-
-    // Get the product details title
-    public String getProductTitle() {
-        return productTitle.getText();
     }
 
     // Get the number of search results

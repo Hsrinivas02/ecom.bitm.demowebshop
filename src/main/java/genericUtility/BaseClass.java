@@ -1,6 +1,4 @@
-
 package genericUtility;
-
 import java.io.IOException;
 import java.time.Duration;
 import java.util.HashMap;
@@ -25,17 +23,12 @@ public class BaseClass {
     protected CartPage cartPage;
     protected CheckOutPage checkOutPage;
     protected LogoutPage logoutPage;
-
     @BeforeMethod(alwaysRun = true)
     @Parameters("browser")
     public void setUp(@Optional("") String browserName) throws IOException {
-        String browser = browserName.isEmpty()
-                ? PropertyUtility.getData("browser")
-                : browserName;
-
+        String browser = browserName.isEmpty() ? PropertyUtility.getData("browser") : browserName;
         if (browser.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
-
             options.addArguments("--disable-save-password-bubble");
             options.addArguments("--disable-features=AutofillServerCommunication");
 
@@ -44,7 +37,6 @@ public class BaseClass {
             prefs.put("autofill.credit_card_enabled", false);
             prefs.put("credentials_enable_service", false);
             prefs.put("profile.password_manager_enabled", false);
-
             options.setExperimentalOption("prefs", prefs);
             driver = new ChromeDriver(options);
 
